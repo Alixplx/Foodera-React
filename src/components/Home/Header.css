@@ -1,0 +1,68 @@
+header {
+
+    background: url('./../../assets/3.jpg') center no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    padding: 25px 0;
+    margin-top: 0px;
+}
+
+header .row {
+
+    margin: 50px 0;
+}
+
+header h2 {
+
+    color: #7c0f28;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    width: 80%;
+}
+
+header p {
+
+    color: #333;
+    margin: 15px 0;
+}
+
+header button {
+
+    width: 140px;
+    height: 40px;
+    background-color: #7c0f28;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #7c0f28;
+    margin: 20px 10px 20px 0px;
+    font-weight: bold;
+}
+
+header button:last-of-type {
+
+    background-color: white;
+    color: #000;
+}
+
+header button:hover {
+
+    transition: .2s ease-in-out;
+}
+
+header button:first-of-type:hover {
+
+    background-color: white;
+    color: #7c0f28;
+}
+
+header button:last-of-type:hover {
+
+    background-color: #ac2947;
+    color: #fff;
+}
